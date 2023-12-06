@@ -1,5 +1,5 @@
 
-# fix-translator
+# fix-encoding
 
 ## notes awb99
 - clj-M:nrepl connect. src-demo/demo/demo1.clj test this
