@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MsgTypeFragmentationDefs>
+	<MsgTypeFragmentationDef MsgType="D" 
+			FragmentableCountTag ="68" 
+			FragmentablePath="73"
+			FragmentableTag ="73" />
+	<MsgTypeFragmentationDef MsgType="8" 
+			FragmentableCountTag ="1361" 
+			FragmentablePath="1362"
+			FragmentableTag ="1362" />
+</MsgTypeFragmentationDefs >

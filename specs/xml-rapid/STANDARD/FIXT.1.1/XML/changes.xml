@@ -1,0 +1,1629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>Instrument</Parent>
+    <Child />
+    <Time>2008-07-30T14:06:13</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>Parties</Parent>
+    <Child>
+    </Child>
+    <Time>30/07/2008 14:08:54</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>QuotSetGrp</Parent>
+    <Child>
+    </Child>
+    <Time>30/07/2008 14:34:26</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>QuotEntryGrp</Parent>
+    <Child>
+    </Child>
+    <Time>30/07/2008 14:39:50</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>UnderlyingInstrument</Parent>
+    <Child>
+    </Child>
+    <Time>30/07/2008 14:40:54</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>FillsGrp</Parent>
+    <Child>
+    </Child>
+    <Time>31/07/2008 11:33:22</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>QuotSetAckGrp</Parent>
+    <Child>
+    </Child>
+    <Time>31/07/2008 14:19:40</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>
+    </Child>
+    <Time>31/07/2008 14:28:11</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>QuotSetAckGrp</Parent>
+    <Child>
+    </Child>
+    <Time>31/07/2008 14:32:31</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>QuotSetAckGrp</Parent>
+    <Child>
+    </Child>
+    <Time>31/07/2008 14:33:43</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>
+    </Child>
+    <Time>31/07/2008 14:42:29</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>ApplIDRequestGrp</Parent>
+    <Child>
+    </Child>
+    <Time>14/08/2008 13:11:04</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>MDIncGrp</Parent>
+    <Child>
+    </Child>
+    <Time>14/08/2008 13:56:13</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>FillsGrp</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 07:59:20</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>NestedParties4</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 08:00:56</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>DisplayInstruction</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 08:10:38</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>OrderQtyData</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 08:28:02</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>Instrument</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 08:29:22</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>QuotCxlEntriesGrp</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 09:28:30</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>Instrument</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 11:30:13</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>OrderQtyData</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 11:30:27</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>DisplayInstruction</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 11:31:07</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>TrdCapDtGrp</Parent>
+    <Child>
+    </Child>
+    <Time>15/08/2008 11:58:27</Time>
+  </Component>
+  <Component>
+    <ChangeType>Edit</ChangeType>
+    <ObjType>Component</ObjType>
+    <Parent>TrdCapDtGrp</Parent>
+    <Child>
+    </Child>
+    <Time>20/08/2008 14:00:15</Time>
+  </Component>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>ClOrdLinkID ( 583 )</Child>
+    <Time>31/07/2008 12:57:32</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>WorkingIndicator ( 636 )</Child>
+    <Time>31/07/2008 12:57:52</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>OrigOrdModTime ( 586 )</Child>
+    <Time>31/07/2008 12:57:57</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>ListID ( 66 )</Child>
+    <Time>31/07/2008 12:57:59</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>Account ( 1 )</Child>
+    <Time>31/07/2008 12:58:08</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>AcctIDSource ( 660 )</Child>
+    <Time>31/07/2008 12:58:11</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>AccountType ( 581 )</Child>
+    <Time>31/07/2008 12:58:50</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>TradeOriginationDate ( 229 )</Child>
+    <Time>31/07/2008 12:58:53</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>TradeDate ( 75 )</Child>
+    <Time>31/07/2008 12:59:33</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>TransactTime ( 60 )</Child>
+    <Time>31/07/2008 12:59:36</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>EncodedTextLen ( 354 )</Child>
+    <Time>31/07/2008 12:59:52</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReject</Parent>
+    <Child>EncodedText ( 355 )</Child>
+    <Time>31/07/2008 12:59:59</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>SecondaryClOrdID ( 526 )</Child>
+    <Time>31/07/2008 13:12:44</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>ClOrdLinkID ( 583 )</Child>
+    <Time>31/07/2008 13:12:48</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>ListID ( 66 )</Child>
+    <Time>31/07/2008 13:12:51</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>OrigOrdModTime ( 586 )</Child>
+    <Time>31/07/2008 13:12:58</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>Account ( 1 )</Child>
+    <Time>31/07/2008 13:13:03</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>AcctIDSource ( 660 )</Child>
+    <Time>31/07/2008 13:13:08</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>AccountType ( 581 )</Child>
+    <Time>31/07/2008 13:13:12</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>FinancingDetails</Child>
+    <Time>31/07/2008 13:13:18</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>UndInstrmtGrp</Child>
+    <Time>31/07/2008 13:13:28</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>ComplianceID ( 376 )</Child>
+    <Time>31/07/2008 13:14:17</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>Text ( 58 )</Child>
+    <Time>31/07/2008 13:14:24</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>EncodedTextLen ( 354 )</Child>
+    <Time>31/07/2008 13:14:40</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelRequest</Parent>
+    <Child>EncodedText ( 355 )</Child>
+    <Time>31/07/2008 13:14:42</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>CustOrderHandlingInst ( 1031 )</Child>
+    <Time>31/07/2008 13:30:25</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>OrderHandlingInstSource ( 1032 )</Child>
+    <Time>31/07/2008 13:30:27</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>TrdRegTimestamps</Child>
+    <Time>31/07/2008 13:30:30</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ReceivedDeptID ( 1030 )</Child>
+    <Time>31/07/2008 13:30:32</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>StrategyParametersGrp</Child>
+    <Time>31/07/2008 13:30:35</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ManualOrderIndicator ( 1028 )</Child>
+    <Time>31/07/2008 13:30:38</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>CustDirectedOrder ( 1029 )</Child>
+    <Time>31/07/2008 13:30:41</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>TriggeringInstruction</Child>
+    <Time>31/07/2008 13:30:43</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>PreTradeAnonymity ( 1091 )</Child>
+    <Time>31/07/2008 13:30:45</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ExDestinationIDSource ( 1133 )</Child>
+    <Time>31/07/2008 13:30:49</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>PriceProtectionScope ( 1092 )</Child>
+    <Time>31/07/2008 13:30:51</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>MatchIncrement ( 1089 )</Child>
+    <Time>31/07/2008 13:30:55</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>MaxPriceLevels ( 1090 )</Child>
+    <Time>31/07/2008 13:30:58</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>DisplayInstruction</Child>
+    <Time>31/07/2008 13:31:02</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>TradeOriginationDate ( 229 )</Child>
+    <Time>31/07/2008 13:31:04</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>TradeDate ( 75 )</Child>
+    <Time>31/07/2008 13:31:06</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ClOrdLinkID ( 583 )</Child>
+    <Time>31/07/2008 13:31:08</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ListID ( 66 )</Child>
+    <Time>31/07/2008 13:31:11</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>OrigOrdModTime ( 586 )</Child>
+    <Time>31/07/2008 13:31:13</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>AcctIDSource ( 660 )</Child>
+    <Time>31/07/2008 13:31:16</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>AccountType ( 581 )</Child>
+    <Time>31/07/2008 13:31:23</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>DayBookingInst ( 589 )</Child>
+    <Time>31/07/2008 13:31:25</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>BookingUnit ( 590 )</Child>
+    <Time>31/07/2008 13:31:28</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>PreallocMethod ( 591 )</Child>
+    <Time>31/07/2008 13:31:32</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>AllocID ( 70 )</Child>
+    <Time>31/07/2008 13:31:34</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>PreAllocGrp</Child>
+    <Time>31/07/2008 13:31:36</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>SettlType ( 63 )</Child>
+    <Time>31/07/2008 13:31:44</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>SettlDate ( 64 )</Child>
+    <Time>31/07/2008 13:31:46</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>CashMargin ( 544 )</Child>
+    <Time>31/07/2008 13:31:48</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ClearingFeeIndicator ( 635 )</Child>
+    <Time>31/07/2008 13:31:51</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>HandlInst ( 21 )</Child>
+    <Time>31/07/2008 13:31:54</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ExecInst ( 18 )</Child>
+    <Time>31/07/2008 13:31:56</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>MinQty ( 110 )</Child>
+    <Time>31/07/2008 13:31:59</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>MaxFloor ( 111 )</Child>
+    <Time>31/07/2008 13:32:01</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ExDestination ( 100 )</Child>
+    <Time>31/07/2008 13:32:03</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>TrdgSesGrp</Child>
+    <Time>31/07/2008 13:32:05</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>FinancingDetails</Child>
+    <Time>31/07/2008 13:32:07</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>UndInstrmtGrp</Child>
+    <Time>31/07/2008 13:32:09</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>QtyType ( 854 )</Child>
+    <Time>31/07/2008 13:32:12</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>PriceType ( 423 )</Child>
+    <Time>31/07/2008 13:32:15</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>StopPx ( 99 )</Child>
+    <Time>31/07/2008 13:32:18</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>SpreadOrBenchmarkCurveData</Child>
+    <Time>31/07/2008 13:32:19</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>YieldData</Child>
+    <Time>31/07/2008 13:32:21</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>PegInstructions</Child>
+    <Time>31/07/2008 13:33:02</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>DiscretionInstructions</Child>
+    <Time>31/07/2008 13:33:05</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>TargetStrategy ( 847 )</Child>
+    <Time>31/07/2008 13:33:07</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>TargetStrategyParameters ( 848 )</Child>
+    <Time>31/07/2008 13:33:09</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ParticipationRate ( 849 )</Child>
+    <Time>31/07/2008 13:33:12</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ComplianceID ( 376 )</Child>
+    <Time>31/07/2008 13:33:14</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>SolicitedFlag ( 377 )</Child>
+    <Time>31/07/2008 13:33:16</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>TimeInForce ( 59 )</Child>
+    <Time>31/07/2008 13:33:21</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>EffectiveTime ( 168 )</Child>
+    <Time>31/07/2008 13:33:23</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>GTBookingInst ( 427 )</Child>
+    <Time>31/07/2008 13:33:26</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>CommissionData</Child>
+    <Time>31/07/2008 13:33:28</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>OrderCapacity ( 528 )</Child>
+    <Time>31/07/2008 13:33:32</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>OrderRestrictions ( 529 )</Child>
+    <Time>31/07/2008 13:33:34</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>CustOrderCapacity ( 582 )</Child>
+    <Time>31/07/2008 13:33:37</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>ForexReq ( 121 )</Child>
+    <Time>31/07/2008 13:33:39</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>SettlCurrency ( 120 )</Child>
+    <Time>31/07/2008 13:33:41</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>BookingType ( 775 )</Child>
+    <Time>31/07/2008 13:33:43</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>Text ( 58 )</Child>
+    <Time>31/07/2008 13:33:46</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>EncodedTextLen ( 354 )</Child>
+    <Time>31/07/2008 13:34:12</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>EncodedText ( 355 )</Child>
+    <Time>31/07/2008 13:34:15</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>SettlDate2 ( 193 )</Child>
+    <Time>31/07/2008 13:34:22</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>OrderQty2 ( 192 )</Child>
+    <Time>31/07/2008 13:34:24</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>Price2 ( 640 )</Child>
+    <Time>31/07/2008 13:34:26</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>PositionEffect ( 77 )</Child>
+    <Time>31/07/2008 13:34:28</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>CoveredOrUncovered ( 203 )</Child>
+    <Time>31/07/2008 13:34:30</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>MaxShow ( 210 )</Child>
+    <Time>31/07/2008 13:34:32</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>LocateReqd ( 114 )</Child>
+    <Time>31/07/2008 13:34:34</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>CancellationRights ( 480 )</Child>
+    <Time>31/07/2008 13:34:36</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>MoneyLaunderingStatus ( 481 )</Child>
+    <Time>31/07/2008 13:34:39</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>RegistID ( 513 )</Child>
+    <Time>31/07/2008 13:35:08</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>OrderCancelReplaceRequest</Parent>
+    <Child>Designation ( 494 )</Child>
+    <Time>31/07/2008 13:35:11</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>MassQuoteAcknowledgement</Parent>
+    <Child>QuoteCancelType ( 298 )</Child>
+    <Time>31/07/2008 14:09:04</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>MassQuoteAcknowledgement</Parent>
+    <Child>QuoteReqID ( 131 )</Child>
+    <Time>31/07/2008 14:09:10</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>MassQuoteAcknowledgement</Parent>
+    <Child>QuoteResponseLevel ( 301 )</Child>
+    <Time>31/07/2008 14:09:20</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>MassQuoteAcknowledgement</Parent>
+    <Child>Account ( 1 )</Child>
+    <Time>31/07/2008 14:09:32</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>MassQuoteAcknowledgement</Parent>
+    <Child>AcctIDSource ( 660 )</Child>
+    <Time>31/07/2008 14:09:35</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>MassQuoteAcknowledgement</Parent>
+    <Child>AccountType ( 581 )</Child>
+    <Time>31/07/2008 14:09:41</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>MassQuoteAcknowledgement</Parent>
+    <Child>EncodedTextLen ( 354 )</Child>
+    <Time>31/07/2008 14:09:50</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>MassQuoteAcknowledgement</Parent>
+    <Child>EncodedText ( 355 )</Child>
+    <Time>31/07/2008 14:09:53</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotSetAckGrp</Parent>
+    <Child>TotNoCxldQuotes ( 1168 )</Child>
+    <Time>31/07/2008 14:12:38</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotSetAckGrp</Parent>
+    <Child>TotNoRejQuotes ( 1170 )</Child>
+    <Time>31/07/2008 14:12:41</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>InstrmtLegGrp</Child>
+    <Time>31/07/2008 14:25:30</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>BidSpotRate ( 188 )</Child>
+    <Time>31/07/2008 14:25:42</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>BidForwardPoints ( 189 )</Child>
+    <Time>31/07/2008 14:25:48</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>MidPx ( 631 )</Child>
+    <Time>31/07/2008 14:25:51</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>MidYield ( 633 )</Child>
+    <Time>31/07/2008 14:25:54</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>TransactTime ( 60 )</Child>
+    <Time>31/07/2008 14:26:08</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>TradingSessionSubID ( 625 )</Child>
+    <Time>31/07/2008 14:26:12</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>OrdType ( 40 )</Child>
+    <Time>31/07/2008 14:26:27</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>OrderQty2 ( 192 )</Child>
+    <Time>31/07/2008 14:26:32</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>OfferForwardPoints2 ( 643 )</Child>
+    <Time>31/07/2008 14:26:37</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>OfferForwardPoints2 ( 643 )</Child>
+    <Time>31/07/2008 14:26:45</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>OfferForwardPoints2 ( 643 )</Child>
+    <Time>31/07/2008 14:26:51</Time>
+  </Field>
+  <Field>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>Field</ObjType>
+    <Parent>QuotEntryAckGrp</Parent>
+    <Child>Instrument</Child>
+    <Time>31/07/2008 14:42:33</Time>
+  </Field>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>BidRequest</Child>
+    <Time>21/08/2008 12:11:24</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>BidResponse</Child>
+    <Time>21/08/2008 12:11:27</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>CrossOrderCancelReplaceRequest</Child>
+    <Time>21/08/2008 12:11:31</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>CrossOrderCancelRequest</Child>
+    <Time>21/08/2008 12:11:34</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>DontKnowTradeDK</Child>
+    <Time>21/08/2008 12:11:37</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>ExecutionAcknowledgement</Child>
+    <Time>21/08/2008 12:11:39</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>ListCancelRequest</Child>
+    <Time>21/08/2008 12:11:42</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>ListExecute</Child>
+    <Time>21/08/2008 12:11:45</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>ListStatus</Child>
+    <Time>21/08/2008 12:11:48</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>ListStatusRequest</Child>
+    <Time>21/08/2008 12:11:51</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>ListStrikePrice</Child>
+    <Time>21/08/2008 12:11:53</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>MultilegOrderCancelReplace</Child>
+    <Time>21/08/2008 12:11:56</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>NewOrderCross</Child>
+    <Time>21/08/2008 12:11:59</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>NewOrderList</Child>
+    <Time>21/08/2008 12:12:02</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>NewOrderMultileg</Child>
+    <Time>21/08/2008 12:12:05</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>OrderStatusRequest</Child>
+    <Time>21/08/2008 12:13:58</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>OrderMassActionRequest</Child>
+    <Time>21/08/2008 12:14:21</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Trade</Parent>
+    <Child>OrderMassActionReport</Child>
+    <Time>21/08/2008 12:14:35</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>Advertisement</Child>
+    <Time>21/08/2008 12:33:13</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>DerivativeSecurityList</Child>
+    <Time>21/08/2008 12:33:16</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>DerivativeSecurityListRequest</Child>
+    <Time>21/08/2008 12:33:18</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>DerivativeSecurityListUpdateReport</Child>
+    <Time>21/08/2008 12:33:20</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>Email</Child>
+    <Time>21/08/2008 12:33:23</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>IOI</Child>
+    <Time>21/08/2008 12:33:25</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>MarketDataRequest</Child>
+    <Time>21/08/2008 12:36:02</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>MarketDataRequestReject</Child>
+    <Time>21/08/2008 12:36:18</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>MarketDataSnapshotFullRefresh</Child>
+    <Time>21/08/2008 12:36:22</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>MarketDefinition</Child>
+    <Time>21/08/2008 12:36:25</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>MarketDefinitionRequest</Child>
+    <Time>21/08/2008 12:36:28</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>MarketDefinitionUpdateReport</Child>
+    <Time>21/08/2008 12:36:31</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>News</Child>
+    <Time>21/08/2008 12:36:38</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>Quote</Child>
+    <Time>21/08/2008 12:36:41</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>QuoteRequest</Child>
+    <Time>21/08/2008 12:36:50</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>QuoteRequestReject</Child>
+    <Time>21/08/2008 12:36:54</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>QuoteResponse</Child>
+    <Time>21/08/2008 12:37:01</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>QuoteStatusRequest</Child>
+    <Time>21/08/2008 12:37:06</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>RFQRequest</Child>
+    <Time>21/08/2008 12:37:09</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityDefinition</Child>
+    <Time>21/08/2008 12:37:12</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityDefinitionRequest</Child>
+    <Time>21/08/2008 12:37:15</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityDefinitionUpdateReport</Child>
+    <Time>21/08/2008 12:37:18</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityList</Child>
+    <Time>21/08/2008 12:37:21</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityListRequest</Child>
+    <Time>21/08/2008 12:37:26</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityListUpdateReport</Child>
+    <Time>21/08/2008 12:37:31</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityStatus</Child>
+    <Time>21/08/2008 12:37:34</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityStatusRequest</Child>
+    <Time>21/08/2008 12:37:40</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityTypeRequest</Child>
+    <Time>21/08/2008 12:38:05</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>SecurityTypes</Child>
+    <Time>21/08/2008 12:38:08</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>TradingSessionList</Child>
+    <Time>21/08/2008 12:38:11</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>TradingSessionListRequest</Child>
+    <Time>21/08/2008 12:38:15</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>TradingSessionListUpdateReport</Child>
+    <Time>21/08/2008 12:38:18</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>TradingSessionStatus</Child>
+    <Time>21/08/2008 12:38:21</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Pre Trade</Parent>
+    <Child>TradingSessionStatusRequest</Child>
+    <Time>21/08/2008 12:38:24</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>AdjustedPositionReport</Child>
+    <Time>21/08/2008 12:38:38</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>AllocationInstruction</Child>
+    <Time>21/08/2008 12:39:16</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>AllocationInstructionAck</Child>
+    <Time>21/08/2008 12:39:30</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>AllocationInstructionAlert</Child>
+    <Time>21/08/2008 12:39:33</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>AllocationReport</Child>
+    <Time>21/08/2008 12:39:37</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>AllocationReportAck</Child>
+    <Time>21/08/2008 12:39:39</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>AssignmentReport</Child>
+    <Time>21/08/2008 12:39:42</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>CollateralAssignment</Child>
+    <Time>21/08/2008 12:39:44</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>CollateralInquiry</Child>
+    <Time>21/08/2008 12:39:47</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>CollateralInquiryAck</Child>
+    <Time>21/08/2008 12:39:49</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>CollateralReport</Child>
+    <Time>21/08/2008 12:39:52</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>CollateralRequest</Child>
+    <Time>21/08/2008 12:39:56</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>CollateralResponse</Child>
+    <Time>21/08/2008 12:39:58</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>Confirmation</Child>
+    <Time>21/08/2008 12:40:01</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>Confirmation_Ack</Child>
+    <Time>21/08/2008 12:40:04</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>ConfirmationRequest</Child>
+    <Time>21/08/2008 12:40:06</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>ContraryIntentionReport</Child>
+    <Time>21/08/2008 12:40:09</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>PositionMaintenanceReport</Child>
+    <Time>21/08/2008 12:40:13</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>PositionMaintenanceRequest</Child>
+    <Time>21/08/2008 12:40:15</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>PositionReport</Child>
+    <Time>21/08/2008 12:40:19</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>RequestForPositions</Child>
+    <Time>21/08/2008 12:40:31</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>RequestForPositionsAck</Child>
+    <Time>21/08/2008 12:40:36</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>SettlementInstructionRequest</Child>
+    <Time>21/08/2008 12:40:40</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>SettlementInstructions</Child>
+    <Time>21/08/2008 12:40:43</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Post Trade</Parent>
+    <Child>SettlementObligationReport</Child>
+    <Time>21/08/2008 12:40:46</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Infrastructure</Parent>
+    <Child>ApplicationMessageReport</Child>
+    <Time>21/08/2008 12:41:50</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Infrastructure</Parent>
+    <Child>NetworkCounterpartySystemStatusRequest</Child>
+    <Time>21/08/2008 12:42:02</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Infrastructure</Parent>
+    <Child>NetworkCounterpartySystemStatusResponse</Child>
+    <Time>21/08/2008 12:42:06</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Infrastructure</Parent>
+    <Child>UserNotification</Child>
+    <Time>21/08/2008 12:42:10</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Infrastructure</Parent>
+    <Child>UserRequest</Child>
+    <Time>21/08/2008 12:42:14</Time>
+  </MsgType>
+  <MsgType>
+    <ChangeType>Delete</ChangeType>
+    <ObjType>MsgType</ObjType>
+    <Parent>Infrastructure</Parent>
+    <Child>UserResponse</Child>
+    <Time>21/08/2008 12:42:47</Time>
+  </MsgType>
+</dataroot>

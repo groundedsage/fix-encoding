@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ApplicationVersionID ApplVerID="0" Name="FIX.2.7" />
+  <ApplicationVersionID ApplVerID="1" Name="FIX.3.0" />
+  <ApplicationVersionID ApplVerID="2" Name="FIX.4.0" />
+  <ApplicationVersionID ApplVerID="3" Name="FIX.4.1" />
+  <ApplicationVersionID ApplVerID="4" Name="FIX.4.2" />
+  <ApplicationVersionID ApplVerID="5" Name="FIX.4.3" />
+  <ApplicationVersionID ApplVerID="6" Name="FIX.4.4" />
+  <ApplicationVersionID ApplVerID="7" Name="FIX.5.0" />
+  <ApplicationVersionID ApplVerID="8" Name="FIX.5.0.SP1" />
+  <ApplicationVersionID ApplVerID="9" Name="FIX.5.0.SP2" />
+</dataroot>

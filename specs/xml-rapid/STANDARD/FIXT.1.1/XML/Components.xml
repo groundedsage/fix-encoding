@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Components>
+    <ComponentName>HopGrp</ComponentName>
+    <ComponentType>ImplicitBlockRepeating</ComponentType>
+    <Category>Session</Category>
+    <MsgID>2085</MsgID>
+    <AbbrName />
+    <OverrideAbbr />
+    <NotReqXML>0</NotReqXML>
+  </Components>
+  <Components>
+    <ComponentName>StandardHeader</ComponentName>
+    <ComponentType>Block</ComponentType>
+    <Category>Session</Category>
+    <MsgID>1024</MsgID>
+    <AbbrName />
+    <OverrideAbbr />
+    <NotReqXML>1</NotReqXML>
+  </Components>
+  <Components>
+    <ComponentName>StandardTrailer</ComponentName>
+    <ComponentType>Block</ComponentType>
+    <Category>Session</Category>
+    <MsgID>1025</MsgID>
+    <AbbrName />
+    <OverrideAbbr />
+    <NotReqXML>1</NotReqXML>
+  </Components>
+  <Components>
+    <ComponentName>MsgTypeGrp</ComponentName>
+    <ComponentType>ImplicitBlockRepeating</ComponentType>
+    <Category>Common</Category>
+    <MsgID>2098</MsgID>
+    <AbbrName>MsgTypeGrp</AbbrName>
+    <NotReqXML>0</NotReqXML>
+  </Components>
+</dataroot>
