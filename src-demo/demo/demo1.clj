@@ -1,7 +1,6 @@
 (ns demo.demo1
   (:require
-
-   [tick.core :as t]
+   [clojure.java.io :as io]
    ;(clj-time [core :as t] [format :as f])
    [fix-translator.core :refer [load-spec get-encoder encode-msg get-msg-type
                                           get-decoder decode-msg]]
@@ -11,12 +10,7 @@
 
 (format "%04d" 234)
 
-
-(t/format :iso-zoned-date-time (t/zoned-date-time))
-
-;(require '[tick.locale-en-us]) ; only need this require for custom format patterns
- ; and it's only needed for cljs, although the ns is cljc
-(t/format (t/formatter "yyyy-MMM-dd") (t/date))
+(slurp (io/resource "bongo.edn"))
 
 
 (load-spec :test-market)

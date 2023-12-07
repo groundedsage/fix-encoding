@@ -1,5 +1,6 @@
 (ns fix-translator.core
   (:require 
+    [clojure.java.io :as io]
    [cheshire.core :as c]
    [clojure.string :as s] 
    ; awb99: time formatting is not used herer!
@@ -76,7 +77,7 @@
     (load-spec venue true))
   ([venue use-keyword-keys?]
     (if (nil? (venue @codecs))
-      (let [spec-file (str "specs/" (name venue) ".spec")
+      (let [spec-file (io/resource (str "fix-specs/" (name venue) ".spec"))
             key-format (if use-keyword-keys? #(keyword %) #(name %))]
         (try
           (if-let [spec (c/parse-string (slurp spec-file) use-keyword-keys?)]
