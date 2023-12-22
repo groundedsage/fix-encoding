@@ -1,12 +1,7 @@
-(ns fix-translator.core
-  (:require 
-    [clojure.java.io :as io]
-   [cheshire.core :as c]
-   [clojure.string :as s] 
-   ; awb99: time formatting is not used herer!
-   ;[tick.core :as t]
-   ;(clj-time [core :as t] [format :as f])
-   ))
+(ns fix-translator
+  (:require [clojure.java.io :as io]
+            [cheshire.core :as c]
+            [clojure.string :as str]))
 
 
 (def codecs (atom {}))
@@ -24,7 +19,7 @@
         new-vals (keys m)]
     (zipmap new-keys new-vals)))
 
-(defn gen-transformations 
+(defn gen-transformations
   "Takes a specification for a single FIX tag and returns a map containing
    two transformation functions for that tag: one which transforms a
    spec-neutral value into a valid FIX value (ex: transforms :hearbeat into
@@ -39,10 +34,10 @@
     (if-let [instruction (tag-spec transform-by)]
       (case instruction
         "by-value" (if-let [values (tag-spec values)]
-                    {:outbound #(values %)
-                     :inbound  #((invert-map values) %)}
-                    (throw (Exception.
-                      (str "For tag " (tag-spec tag) " in spec, no values found
+                     {:outbound #(values %)
+                      :inbound  #((invert-map values) %)}
+                     (throw (Exception.
+                             (str "For tag " (tag-spec tag) " in spec, no values found
                         for transform-by-value function"))))
         "to-int"    {:outbound #(str (int %))
                      :inbound  #(Integer/parseInt %)}
@@ -51,13 +46,13 @@
         "to-string" {:outbound #(identity %)
                      :inbound  #(identity %)}
         (throw (Exception.
-                      (str "For tag " (tag-spec tag) " in spec, invalid
+                (str "For tag " (tag-spec tag) " in spec, invalid
                             transform-by function: " instruction))))
       (throw (Exception.
-                      (str "For tag " (tag-spec tag) " in spec, no transform-by
+              (str "For tag " (tag-spec tag) " in spec, no transform-by
                             function found"))))))
 
-(defn gen-codec 
+(defn gen-codec
   "Takes information about a tag and creates an encoding and decoding map for
    it. The encoding map keys a spec-neutral tag name to its corresponding FIX
    tag number and transformation function. The decoding map keys a FIX tag
@@ -73,32 +68,30 @@
   "Takes a venue name, reads its FIX specification, and generates encoders and
    decoders for each of its tags. The user may specify whether the encoding and
    decoding maps use keyword keys or string keys."
-  ([venue]
-    (load-spec venue true))
+  ([venue] (load-spec venue true))
   ([venue use-keyword-keys?]
-    (if (nil? (venue @codecs))
-      (let [spec-file (io/resource (str "fix-specs/" (name venue) ".spec"))
-            key-format (if use-keyword-keys? #(keyword %) #(name %))]
-        (try
-          (if-let [spec (c/parse-string (slurp spec-file) use-keyword-keys?)]
-            (do
-              (swap! codecs assoc venue {:encoder {} :decoder {}
-                                         :tags-of-interest {}
-                                         :key-format key-format})
-              (doall (for [[k v] (spec (key-format :spec))]
-                (let [t (gen-codec k v venue)]
-                  (swap! codecs update-in [venue :encoder] conj (:encoder t))
-                  (swap! codecs update-in [venue :decoder] conj (:decoder t)))))
-              (swap! codecs assoc-in [venue :tags-of-interest]
-                                     (spec (key-format :tags-of-interest)))
-              true))
-        (catch Exception e
-          (println "Error:" (.getMessage e))
-          (swap! codecs dissoc venue)
-          nil)))
-        true)))
+   (if (nil? (venue @codecs))
+     (let [spec-file (io/resource (str "fix-specs/" (name venue) ".spec"))
+           key-format (if use-keyword-keys? #(keyword %) #(name %))]
+       (try
+         (when-let [spec (c/parse-string (slurp spec-file) use-keyword-keys?)]
+           (swap! codecs assoc venue {:encoder {}
+                                      :decoder {}
+                                      :tags-of-interest {}
+                                      :key-format key-format})
+           (doall (for [[k v] (spec (key-format :spec))]
+                    (let [t (gen-codec k v venue)]
+                      (swap! codecs update-in [venue :encoder] conj (:encoder t))
+                      (swap! codecs update-in [venue :decoder] conj (:decoder t)))))
+           (swap! codecs assoc-in [venue :tags-of-interest] (spec (key-format :tags-of-interest)))
+           true)
+         (catch Exception e
+           (println "Error:" (.getMessage e))
+           (swap! codecs dissoc venue)
+           nil)))
+     true)))
 
-(defn get-encoder 
+(defn get-encoder
   "Returns the encoder for a particular venue."
   [venue]
   (if-let [encoder (get-in @codecs [venue :encoder])]
@@ -106,7 +99,7 @@
     (throw (Exception. (str "No encoder found for " venue ". Have you loaded
       it with load-spec?")))))
 
-(defn translate-to-fix 
+(defn translate-to-fix
   "Takes an encoder and a collection containing a spec-neutral tag and its
    value, looks up the corresponding FIX values for the tag and value, and
    returns them formatted as a FIX message fragment."
@@ -115,7 +108,7 @@
     (if-let [value ((translation-fn translator) (second tag-value))]
       (str (tag-number translator) "=" value tag-delimiter)
       (throw (Exception. (str "No transformation found for "
-                         (second tag-value)))))
+                              (second tag-value)))))
     (throw (Exception. (str "tag " (first tag-value) " not found")))))
 
 (defn add-msg-cap
@@ -123,9 +116,9 @@
    the msg's length."
   [encoder msg]
   (let [msg-length (count msg)
-        msg-cap (s/join "" (map (partial translate-to-fix encoder)
-                     [[:begin-string :version]
-                      [:body-length msg-length]]))]
+        msg-cap (str/join "" (map (partial translate-to-fix encoder)
+                                  [[:begin-string :version]
+                                   [:body-length msg-length]]))]
     (str msg-cap msg)))
 
 (defn checksum
@@ -134,21 +127,20 @@
   [msg]
   (format "%03d" (mod (reduce + (.getBytes msg)) 256)))
 
-
-(defn add-checksum 
+(defn add-checksum
   "Takes an encoder and a FIX msg, and appends it with the checksum."
   [encoder msg]
   (let [chksum (translate-to-fix encoder [:checksum (checksum msg)])]
     (str msg chksum)))
 
-(defn encode-msg 
+(defn encode-msg
   "Takes a venue and a collection of tags and their values in the form [t0 v0
    t1 v1 t2 v2 ...] and transforms it into a FIX message."
   [venue tags-values]
   (let [encoder (get-encoder venue)]
     (->> (partition 2 tags-values)
          (map (partial translate-to-fix encoder))
-         (s/join "")
+         (str/join "")
          (add-msg-cap encoder)
          (add-checksum encoder))))
 
@@ -169,7 +161,7 @@
     (throw (Exception. (str "No venue or tags of interest found for this tag: "
                             msg-type)))))
 
-(defn extract-tag-value 
+(defn extract-tag-value
   "Extracts the value of a tag from a message."
   [tag msg]
   (let [pattern (re-pattern (str "(?<=" tag "=)(.*?)(?=" tag-delimiter ")"))]
@@ -191,10 +183,10 @@
   (if-let [translator (decoder (first tag-value))]
     (if-let [value ((translation-fn translator) (second tag-value))]
       {(tag-name translator) value}
-    (throw (Exception. (str "No translation found for tag " (first tag-value)
-                            " with value " (second tag-value)))))
-  (throw (Exception. (str "No decoder found for tag " (first tag-value)
-                          " in spec")))))
+      (throw (Exception. (str "No translation found for tag " (first tag-value)
+                              " with value " (second tag-value)))))
+    (throw (Exception. (str "No decoder found for tag " (first tag-value)
+                            " in spec")))))
 
 (defn decode-tag
   "Takes a tag in spec-neutral form and a raw FIX message, extracts the tag's
@@ -202,7 +194,7 @@
   [venue tag msg]
   (if-let [tag-number (tag-number (get-in @codecs [venue :encoder tag]))]
     (if-let [decoded-tag-value ((translation-fn
-                                (get-in @codecs [venue :decoder tag-number]))
+                                 (get-in @codecs [venue :decoder tag-number]))
                                 (extract-tag-value tag-number msg))]
       decoded-tag-value
       (throw (Exception. (str "No decoding found for " tag))))
@@ -213,7 +205,7 @@
    containing tags and their values in spec-neutral form."
   [venue msg-type msg]
   (let [decoder (get-decoder venue)
-        tags (get-tags-of-interest venue msg-type) 
+        tags (get-tags-of-interest venue msg-type)
         pattern (re-pattern (str "(?<=" tag-delimiter ")(" tags ")=(.*?)"
                                  tag-delimiter))]
     (->> (re-seq pattern msg)

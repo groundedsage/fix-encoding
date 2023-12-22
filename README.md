@@ -1,6 +1,9 @@
 
 # fix-encoding
 
+# Run tests 
+`clj -X:test`
+
 ## notes awb99
 - clj-M:nrepl connect. src-demo/demo/demo1.clj test this
 - date handling not used here -> removed dependency
