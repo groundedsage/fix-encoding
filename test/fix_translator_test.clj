@@ -69,16 +69,16 @@
                            :mid-price-peg "M"}}
         codec (fix/gen-codec fix-tag-name tag-spec :test-market)]
     (is (= "18" (fix/tag-number (get-in codec [:encoder :exec-inst]))))
-    (is (= "P" ((fix/translation-fn (get-in codec [:encoder fix-tag-name])) :market-peg)))
-    (is (= "R" ((fix/translation-fn (get-in codec [:encoder fix-tag-name])) :primary-peg)))
-    (is (= "M" ((fix/translation-fn (get-in codec [:encoder fix-tag-name])) :mid-price-peg)))
+    (let [translate-fn (fix/translation-fn (get-in codec [:encoder fix-tag-name]))]
+      (is (= "P" (translate-fn :market-peg)))
+      (is (= "R" (translate-fn :primary-peg)))
+      (is (= "M" (translate-fn :mid-price-peg))))
 
     (is (= (fix/tag-name (get-in codec [:decoder "18"])) fix-tag-name))
-    (is (= :market-peg ((fix/translation-fn (get-in codec [:decoder "18"])) "P")))
-    (is (= :primary-peg ((fix/translation-fn (get-in codec [:decoder "18"])) "R")))
-    (is (= :mid-price-peg ((fix/translation-fn (get-in codec [:decoder "18"])) "M")))))
-
-
+    (let [translate-fn (fix/translation-fn (get-in codec [:decoder "18"]))]
+      (is (= :market-peg (translate-fn "P")))
+      (is (= :primary-peg (translate-fn "R")))
+      (is (= :mid-price-peg (translate-fn "M"))))))
 
 (deftest test-get-encoder
   (let [encoder (fix/get-encoder :test-market)]
