@@ -11,4 +11,8 @@
                                 cider/cider-nrepl {:mvn/version "0.28.3"}}
                    :main-opts  ["-m" "nrepl.cmdline"]}
            :demo {:extra-paths ["src-demo"]
-                  :exec-fn  demo.https/run-webserver}}}
+                  :exec-fn  demo.https/run-webserver}
+           :dev {:extra-paths ["dev"]
+                 :extra-deps {org.clojure/data.xml {:mvn/version "0.0.8"}
+                              org.clojure/data.json {:mvn/version "2.5.0"}
+                              meander/epsilon {:mvn/version "0.0.650"}}}}}
